@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA modular-python | Cypher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Inteligência Artificial | Cypher</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="IA">
+            <h2>Converse com a Cypher!</h2>
+        </div>
+
+        <div class="modo-ia-box">
+            <label for="modo-ia">Modo da IA</label>
+            <select id="modo-ia">
+                <option value="ollama">Ollama Local</option>
+                <option value="gemini">Gemini API</option> 
+                <option value="groq">Groq API</option>
+            </select>
+        </div>
+
+        <div class="chat-cypher">
+            <div class="msg ia">
+                Olá! Eu sou a Cypher AI. Escolha um modo de IA e envie sua mensagem.
+            </div>
+        </div>
+
+        <div class="area-input">
+            <input type="text" id="mensagem" placeholder="Digite sua mensagem...">
+            <button id="btn-enviar">Enviar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
